@@ -7,6 +7,7 @@ const FeedBack = ({ options, onLeaveFeedback }) => {
       {options.map(option => {
         return (
             <button
+            
               className={styles.feedBackBtn}
               key={option}
               name={option}
